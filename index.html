@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汇友软件开发服务</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: white;
+            padding: 15px 50px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+        .nav-top {
+            color: #333;
+            font-size: 14px;
+            margin-left: 20px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .subtitle {
+            color: #e6246d;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #e6246d;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 350px;
+            padding: 0 50px;
+        }
+
+        .feature {
+            text-align: left;
+        }
+
+        .feature h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 12px;
+            border-top: 1px solid #eee;
+            margin-top: 50px;
+        }
+        .logo-image {
+            width: 200px;
+            height: 200px;
+            background-color: #e6246d;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 20px auto;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-top {
+            width: 30px;
+            height: 30px;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .logo-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+            <div style="display: flex; align-items: center; justify-content: flex-start;">
+                <img class="logo-top" src="src/111.jpg" alt="Logo">
+                <span class="nav-top">软件开发服务</span>
+            </div>
+  
+        <nav class="nav" style="display: flex; align-items: center;">
+            <a href="#" >首页</a>
+            <a href="#">免费课程</a>
+            <a href="#" >课程会员</a>
+            <a href="#">加群申请</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="content">
+            <h2 class="subtitle">软件定制开发，找我们</h2>
+            <h1 class="title">牛马的价格，宝马的服务</h1>
+            <p class="description">999+程序员在线接单</p>
+            <a href="https://v.douyin.com/iPbqdkVb/" class="cta-button">立即咨询</a>
+        </div>
+        <div class="logo-image">
+            <img src="src/111.jpg" alt="Logo">
+        </div>
+    </main>
+
+    <div class="features">
+        <div class="feature">
+            <h3>超高性价比</h3>
+            <p>相比传统外包公司，我们无需承担高额运营成本，价格完全按程序员工时计算，为您节省开支</p>
+        </div>
+        <div class="feature">
+            <h3>交付速度快</h3>
+            <p>平台汇集999+专业程序员，其中不乏全职接单的技术大牛，能快速匹配您的项目需求，加快开发进度</p>
+        </div>
+        <div class="feature">
+            <h3>交易有保障</h3>
+            <p>提供第三方担保交易，验收合格后再付款，确保您的项目顺利完成，资金安全有保障</p>
+        </div>
+        <div class="feature">
+            <h3>类型多样化</h3>
+            <p>涵盖定制开发、问题修复、技术咨询等多种服务，只要是合理合法的需求，都能找到专业的技术支持</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>课程内容版权均归 汇友众包</p>
+    </footer>
+</body>
+</html>
